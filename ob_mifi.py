@@ -7,7 +7,7 @@ import urllib.parse
 # 在青龙面板选择-环境变量-然后添加变量名称WIFI_DEV_NOS，值就填你的设备号，多个设备号用英文 & 符号连接。
 # 示例: 86825xxxx&12345xxxx
 # 或者一台设备就添加一个变量都行，可以添加多个变量
-DEV_NO_LIST_STRING = os.getenv('WIFI_DEV_NOS')
+DEV_NO_LIST_STRING = os.getenv('8082375224')
 
 # WECHAT_ROBOT_WEBHOOK: 选填。企业微信机器人的 Webhook 地址，用于接收推送消息。
 WECHAT_ROBOT_WEBHOOK = os.getenv('WECHAT_ROBOT_WEBHOOK')
@@ -27,7 +27,7 @@ BARK_PUSH_URL = os.getenv('BARK_PUSH_URL')
 PUSHPLUS_TOKEN = os.getenv('PUSHPLUS_TOKEN')
 
 # DINGTALK_WEBHOOK: 选填。钉钉机器人 Webhook 地址，用于钉钉群推送。
-DINGTALK_WEBHOOK = os.getenv('DINGTALK_WEBHOOK')
+DINGTALK_WEBHOOK = os.getenv('https://oapi.dingtalk.com/robot/send?access_token=05a1932f939f32e12c983d92472d69c521ab44987a92f4cbbc88eb1b67a72f04')
 
 # FEISHU_WEBHOOK: 选填。飞书机器人 Webhook 地址，用于飞书群推送。
 FEISHU_WEBHOOK = os.getenv('FEISHU_WEBHOOK')
