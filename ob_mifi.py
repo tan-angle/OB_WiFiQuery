@@ -27,7 +27,7 @@ BARK_PUSH_URL = os.getenv('BARK_PUSH_URL')
 PUSHPLUS_TOKEN = os.getenv('PUSHPLUS_TOKEN')
 
 # DINGTALK_WEBHOOK: 选填。钉钉机器人 Webhook 地址，用于钉钉群推送。
-DINGTALK_WEBHOOK = os.getenv('https://oapi.dingtalk.com/robot/send?access_token=05a1932f939f32e12c983d92472d69c521ab44987a92f4cbbc88eb1b67a72f04')
+DINGTALK_WEBHOOK = os.getenv('DINGTALK_WEBHOOK')
 
 # FEISHU_WEBHOOK: 选填。飞书机器人 Webhook 地址，用于飞书群推送。
 FEISHU_WEBHOOK = os.getenv('FEISHU_WEBHOOK')
