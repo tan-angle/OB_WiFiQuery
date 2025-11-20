@@ -3,9 +3,9 @@ name: OB MIFI Traffic Monitor
 on:
   schedule:
     # 每天北京时间早上8点运行（UTC时间0点）
-    - cron: '0 8 * * *'
+    - cron: '30 0 * * *'
     # 每天北京时间晚上8点运行（UTC时间12点）  
-    - cron: '0 20 * * *'
+    - cron: '0 12 * * *'
   workflow_dispatch:  # 允许手动触发
     inputs:
       push_mode:
